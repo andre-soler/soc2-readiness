@@ -1,0 +1,3 @@
+# Nada de evidência com dado sensível real
+*.tmp
+.env
