@@ -1,0 +1,9 @@
+Risk ID,Risk,Likelihood,Impact,Level,Treatment,Status
+R-01,Unauthorized access to customer data,Medium,High,High,MFA + least privilege + access reviews,Mitigated
+R-02,Leaked credentials in code or pipeline,Medium,High,High,Secrets in Key Vault; secret scanning in CI; rotation,Mitigated
+R-03,Vulnerable dependency or container image reaches production,Medium,Medium,Medium,Dependency and image scanning in pipeline,Mitigated
+R-04,Broken authorization in the application (BOLA),Medium,High,High,Application penetration testing; server-side ownership checks,Mitigated
+R-05,No alerting on suspicious activity,High,Medium,Medium,Centralized logs in place; SIEM alerting planned,Open
+R-06,Data loss from infrastructure failure,Low,High,Medium,Cloud backups; RTO/RPO to be formalized,Partial
+R-07,Third-party vendor breach,Low,High,Medium,Vendor assessment and inventory,Mitigated
+R-08,Staff unaware of security responsibilities,Medium,Medium,Medium,Policies acknowledged at onboarding; training planned,Partial

@@ -1,0 +1,4 @@
+Vendor,Service,Data handled,Risk level,Security posture,Review status
+Microsoft Azure,Cloud infrastructure and hosting,Customer and company data (Restricted),High,SOC 2 + ISO 27001 certified,Reviewed
+GitHub,Source code and CI/CD,Source code (Confidential),Medium,SOC 2 certified,Reviewed
+Microsoft Entra ID,Identity and access management,Credentials and identity data (Restricted),High,SOC 2 + ISO 27001 certified,Reviewed
